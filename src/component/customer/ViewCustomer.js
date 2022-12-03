@@ -36,19 +36,21 @@ const ViewCustomer = () => {
     <Card title="Customer Details">
       <div className="row">
         <div className="col-4">Name:</div>
-        <div className="col-4">{data.name}</div>
+        <div className="col-4">{data.name ? data.name : "-"}</div>
       </div>
       <div className="row">
         <div className="col-4">Identity Card:</div>
-        <div className="col-4">{data.identityCard}</div>
+        <div className="col-4">
+          {data.identityCard ? data.identityCard : "-"}
+        </div>
       </div>
       <div className="row">
         <div className="col-4">Email:</div>
-        <div className="col-4">{data.email}</div>
+        <div className="col-4">{data.email ? data.email : "-"}</div>
       </div>
       <div className="row">
         <div className="col-4">Phone Number:</div>
-        <div className="col-4">{data.phoneNumber}</div>
+        <div className="col-4">{data.phoneNumber ? data.phoneNumber : "-"}</div>
       </div>
       <div className="row">
         <div className="col-4">Member:</div>
@@ -56,7 +58,7 @@ const ViewCustomer = () => {
       </div>
       <div className="row">
         <div className="col-4">Date Register:</div>
-        <div className="col-4">{data.date}</div>
+        <div className="col-4">{data.date ? data.date : "-"}</div>
       </div>
       <div className="row mt-5">
         <div className="col-12">
