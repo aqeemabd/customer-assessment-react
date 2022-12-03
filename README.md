@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+IMPORTANT!
+### `npm install`
+
+Run `npm install` before run the local project.
+
 In the project directory, you can run:
 
 ### `npm start` and `npm run server`
