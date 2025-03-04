@@ -1,3 +1,13 @@
 {
-  "customers": []
+  "customers": [
+    {
+      "name": "Aqeem Abdullah",
+      "identityCard": "000183102030",
+      "email": "aqeemabd@gmail.com",
+      "phoneNumber": "0123997559",
+      "member": true,
+      "date": "2025-03-03T06:48:22.745Z",
+      "id": 1
+    }
+  ]
 }
